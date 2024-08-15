@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(Roboto-Regular.woff);
+}
+
+* {
+    font-family: "Roboto";
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background-color: red;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+nav {
+    cursor: pointer;
+}
